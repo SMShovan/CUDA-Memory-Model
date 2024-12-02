@@ -1,0 +1,26 @@
+# Ignore commit automation script
+commit_optimizations.sh
+
+# Common CUDA build artifacts
+*.o
+*.out
+*.exe
+*.lib
+*.so
+*.dll
+*.dylib
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Build directories
+build/
+bin/
+
+# System files
+.DS_Store
+.Spotlight-V100
+.Trashes
